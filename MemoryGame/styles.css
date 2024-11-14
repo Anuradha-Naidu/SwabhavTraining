@@ -1,0 +1,42 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+ font-family: Arial, sans-serif;
+ text-align: center;
+}
+
+#gameContainer{
+ display: flex;
+ flex-wrap: wrap;
+ width: 60%;
+ margin: 0 auto;
+ margin-top: 20px;
+}
+
+.box {
+ width: 50px;
+ height: 40px;
+ margin: 5px;
+ background-color: lightgray;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 15px;
+ cursor: pointer;
+ transition: background-color 0.3s;
+}
+
+.box.yellow {
+ background-color: yellow;
+}
+
+.box.red {
+ background-color: red;
+}
+
+.box.green {
+ background-color: green;
+ color: white;
+}
